@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+faiss-cpu = "*"
+langchain-community = "*"
+langchain-openai = "*"
+tiktoken = "*"
+pypdf = "*"
+python-dotenv = "*"
+pypdf2 = "*"
+streamlit = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
