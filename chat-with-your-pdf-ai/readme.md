@@ -36,9 +36,6 @@ Create a .env file and put in your API key:
 OPENAI_API_KEY="insert-your-api-key-here"
 ```
 
-(optional for vscode) create a launch.json file and follow the format provided
-```
-
 Run the streamlit app on your CLI:
 ```bash
 streamlit run main.py
