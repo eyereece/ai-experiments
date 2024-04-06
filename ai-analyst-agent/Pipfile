@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+pandas = "*"
+langchain-core = "*"
+langchain-experimental = "*"
+python-dotenv = "*"
+openai = "*"
+tiktoken = "*"
+faiss-cpu = "*"
+tabulate = "*"
+matplotlib = "*"
+langchain-openai = "*"
+langchainhub = "*"
+textblob = "*"
+black = "*"
+streamlit = "*"
+pyqt5 = "*"
+seaborn = "*"
+numpy = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
