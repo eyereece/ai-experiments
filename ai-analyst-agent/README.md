@@ -45,6 +45,16 @@ pipenv install
 
 To use the app with a custom dataset, follow all the steps above and head down to Quick Start 2, and then come back here
 
+(OPTIONAL) Configure UI for Streamlit
+This will make the background white when running the app
+```bash
+mkdir .streamlit
+cd .streamlit
+touch config.toml
+echo "[theme]\nbase=\"light\"\nprimaryColor=\"#6b4bff\"" > config.toml
+```
+
+
 Run the streamlit app:
 ```bash
 streamlit run main.py
