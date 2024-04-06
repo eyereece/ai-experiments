@@ -13,7 +13,7 @@ Read the blog post here for full explanation:
 <br>
 
 # Features
-An AI app that analyzes your, create and display plots for you given a query and a dataset.
+A web app that utilizes an AI agent that can provide data analysis, create and display plots for you given a query and a dataset.
 * <b>In-Context Learning:</b> Combined two prompting methods to guide the model. Particularly, how the agent should  approach a problem given a question and which tool to use given a situation.
 * <b>Toolkits:</b> The Agent is equiped with a vector retriever tool and python code runner tool.
 * <b>Plot Display and Analysis: </b> Currently, the system has been optimized to handle plot displays, particularly plots from the Matplotlib library. Agent can also analyze queries related to dataset.
@@ -126,6 +126,6 @@ Run the app as outlined in QuickStart 1
 
 # References
 
-Prompt has been slightly modified from an existing "hwchase17/react" prompt and "csv-agent" available:
+Prompt has been slightly modified from an existing "hwchase17/react" prompt and "csv-agent" available through these links:
 * https://smith.langchain.com/hub/hwchase17/react?organizationId=529179d8-5092-5e66-a0f8-1a11e45e8d25
 * https://github.com/langchain-ai/langchain/blob/master/templates/csv-agent/csv_agent/agent.py
