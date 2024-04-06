@@ -13,7 +13,11 @@ Read the blog post here for full explanation:
 <br>
 
 # Features
-An AI app that analyze your data and provide plots for you given a query and a dataset
+An AI app that analyzes your, create and display plots for you given a query and a dataset.
+* <b>In-Context Learning:</b> Combined two prompting methods to guide the model. Particularly, how the agent should  approach a problem given a question and which tool to use given a situation.
+* <b>Toolkits:</b> The Agent is equiped with a vector retriever tool and python code runner tool.
+* <b>Plot Display and Analysis: </b> Currently, the system has been optimized to handle plot displays, particularly plots from the Matplotlib library. Agent can also analyze queries related to dataset.
+  
 <br>
 
 # Sample Results
