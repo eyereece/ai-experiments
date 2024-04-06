@@ -30,12 +30,12 @@ The following quickstart uses the provided dataset, you will only need your own 
 
 Clone the repository
 ```bash
-git clone [insert link here]
+git clone https://github.com/eyereece/ai-projects.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd ai-analyst-agent
+cd ai-projects/ai-analyst-agent
 ```
 
 Install dependencies
